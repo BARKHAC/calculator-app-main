@@ -1,0 +1,133 @@
+@import url(https://fonts.google.com/specimen/Spartan);
+
+
+body{
+padding:0;
+margin:0;
+background-color:hsl(222, 26%, 31%) ;
+font: size 32px;
+font-weight: 700;
+font-family: 'Spartan' , sans-serif;
+}
+
+ul{
+    padding-inline-start:0px;
+    padding-inline-end:0px;
+}
+
+.main0{
+    margin:auto;
+    max-width:440px;
+    background-color: hsl(222, 26%, 31%);
+    color:white;
+    margin-top: 100px;
+}
+.main{
+    text-align: right;
+    margin:auto;
+    max-width: 440px;
+    background-color:hsl(224, 36%, 15%);
+    height:100px;
+    /*width:300px;*/
+    border-radius: 5px;
+    color:white;
+    margin-bottom:25px;
+    font-size: 30px;
+}
+
+.main1{
+    text-align: center;
+    margin:auto;
+    max-width: 440px;
+    background-color:hsl(224, 36%, 15%);
+    height:300px;
+    /*width:300px;*/
+    border-radius: 5px;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.main1 > button{
+   background-color: #b8a8a8;
+   color:black;
+   width:75px;
+   height:30px;
+   margin:10px;
+   display:inline-block;
+   border-radius: 5px;
+   text-align: center;
+   cursor:pointer;
+   box-shadow: 0px 5px rgba(238, 157, 157, 0.61);
+}
+.main1 > button{
+    background-color: #b8a8a8;
+    color:black;
+    width:75px;
+    height:30px;
+    margin:10px;
+    display:inline-block;
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+    box-shadow: 0px 5px rgba(238, 157, 157, 0.61);
+ }
+
+.col{
+    background-color: hsl(222, 26%, 31%);
+}
+
+.main1 > button:hover{
+ background-color: #927070;
+}
+
+#eq{
+    background-color: red;
+     width:150px;
+}
+
+
+#eq:hover{
+    background-color: rgb(243, 142, 142);
+}
+
+
+#re{
+    background-color: hsl(222, 26%, 31%);
+    color: white; 
+    width:150px; 
+    margin-left: 20px;
+}
+
+
+#re:hover{
+    background-color:hsl(223, 18%, 77%) ;
+}
+
+#del{
+    background-color:hsl(222, 26%, 31%);
+    color:white;
+}
+
+#del:hover{
+    background-color:hsl(223, 18%, 77%) ;
+}
+
+
+.switch-toggle {
+    float: left;
+    background: #242729;
+ }
+ .switch-toggle input {
+   position: absolute;
+   opacity: 0;
+ }
+ .switch-toggle input + label {
+   padding: 7px;
+   float:left;
+   color: #fff;
+   cursor: pointer;
+ }
+ .switch-toggle input:checked + label {
+   background: green;
+ }

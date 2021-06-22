@@ -1,0 +1,58 @@
+<!DOCTYPE htm> </button>
+<html lang="en">
+<heads>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> </button>
+</head>
+<body>
+    <div class="calculator">
+        <div class="main0">
+            <ul style="list-style: none;">
+                <li style="text-align: left;margin-left: 0;display:inline-block;margin-right: 250px;">calc</li>
+                <li style="text-align:right;display: inline-block; margin-right:0px">
+                    
+                    <div class="switch-toggle switch-3 switch-candy" style="margin-right:0px;">
+                    
+                    <input id="on" name="state-d" type="radio" checked=""> </button>
+                    <label for="on" onclick="">1</label>
+                  
+                    <input id="na" name="state-d" type="radio" checked="checked"> </button>
+                    <label for="na" class="disabled" onclick="">2</label>
+                  
+                    <input id="off" name="state-d" type="radio"> 
+                    <label for="off" onclick="">3</label>
+                  
+                  </div>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="main" id="output">0</div>
+        <div class="main1">
+            <button value="7">7</button>
+            <button value="8">8 </button>
+            <button value="9">9 </button>
+            <button value="DEL" data-action="delete">DEL </button>
+            <button value="4"> 4</button>
+            <button value="5"> 5</button>
+            <button value="6"> 6</button>
+            <button value="+" data-action="add" class="key--operator" >+</button>
+            <button value="1">1 </button>
+            <button value="3"> 3</button>
+            <button value="-" data-action="subtract" class="key--operator" >-</button>
+            <button value="." data-action="decimal">.</button>
+            <button value="0">0 </button>
+            <button value="/" data-action="divide" class="key--operator" >/</button>
+            <button value="x" data-action="multiply" class="key--operator" >x</button>
+            <button value="RESET" data-action="reset">RESET</button>
+            <button value="=" data-action="calculate" class="equal">=</button>
+            
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
